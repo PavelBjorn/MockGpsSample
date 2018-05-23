@@ -19,7 +19,7 @@ import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class MainActivity extends AppCompatActivity implements LocationListener {
+public class MockLocationActivity extends AppCompatActivity implements LocationListener {
 
     private Timer timer;
     private LocationManager manager;
